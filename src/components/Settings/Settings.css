@@ -1,0 +1,46 @@
+/* Menu Settings */
+#menu-settings {
+	overflow: auto;
+}
+.menu-selector {
+	width:50%;
+	float:left;
+	text-align:center;
+}
+.menu-selector h2 {
+	margin-bottom:5px;
+	font-size:.9rem;
+}
+.menu-selector select {
+	border:none;
+	width:100px;
+	-moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+	text-align-last: center;
+	text-align: center;
+	-ms-text-align-last: center;
+	-moz-text-align-last: center;
+	padding:5px;
+	background: url(../../images/down-arrow.png) no-repeat 90% #261616;
+	background-size:15px;
+	border-radius:0;
+	cursor:pointer;
+}
+.menu-selector select:focus {
+	border:none;
+	outline:none;
+}
+
+/* Tablet */
+@media only screen and (min-width: 480px) {
+.menu-selector {
+	width:100%;
+	float:none;
+}
+.menu-selector select {
+	width:100%;
+	max-width:150px;
+	padding:5px;
+}
+}

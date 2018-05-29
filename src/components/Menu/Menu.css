@@ -1,0 +1,65 @@
+#menu {
+	background:#371f1f;
+	padding:20px;
+	height:50vh;
+	text-align:center;
+}
+#logo {
+  display:block;
+  width:80%;
+  max-width:125px;
+  margin:0 auto;
+}
+
+/* Roll Result */
+#roll-result {
+	margin:15px 0 10px;
+}
+#roll-result h1 {
+	font-size:1.5rem;
+	margin:0 0 5px;
+}
+#roll-result-box {
+	background:#261616;
+	width:100%;
+	max-width:150px;
+	margin:0 auto;
+}
+#roll-result-box span {
+	font-size:4rem;
+	font-weight:700;
+}
+
+/* Tablet */
+@media only screen and (min-width: 480px) {
+#menu {
+	float:left;
+	width:25%;
+	height:100vh;
+}
+#roll-result h1 {
+	font-size:1rem;
+}
+#roll-result-box span {
+	font-size:4rem;
+}
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+#menu {
+	float:left;
+	width:25%;
+	height:100vh;
+}
+#roll-result {
+	margin:50px 0 50px;
+}
+#roll-result h1 {
+	font-size:1.5rem;
+	margin:0 0 5px;
+}
+#roll-result-box span {
+	font-size:6rem;
+}
+}

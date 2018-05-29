@@ -1,0 +1,28 @@
+#roll-btn {
+  background:#881d2d;
+  border:none;
+  width:100%;
+  font-size:2rem;
+  font-weight:500;
+  cursor:pointer;
+  text-align:center;
+  position:fixed;
+  bottom:0;
+  right:0;
+  height:15vh;
+}
+#roll-btn:hover {
+  background:#5F1625;
+}
+#roll-btn:focus {
+  outline:none;
+}
+
+/* Tablet */
+@media only screen and (min-width: 480px) {
+#roll-btn {
+  width:75%;
+  height:15vh;
+  font-size:2.5rem;
+}
+}

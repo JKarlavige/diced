@@ -1,0 +1,46 @@
+#board {
+	display:flex;
+	align-items:center;
+	overflow:auto;
+	height:35vh;
+}
+#dice-contain {
+	display: block;
+	margin:0 auto;
+}
+.dice{
+  font-size:5rem;
+  align-self:center;
+  margin:0 10px;
+  display:inline-block;
+  min-height:1em;
+  padding-left:.8em;
+  background-size:.8em;
+  background-repeat:no-repeat;
+}
+.dice:first-of-type {
+	margin-left:0;
+}
+.dice:last-of-type {
+	margin-right:0;
+}
+
+/* Tablet */
+@media only screen and (min-width: 480px) {
+#board {
+  height:85vh;
+  width:75%;
+}
+.dice {
+  font-size:6rem;
+  margin:0 20px;
+}
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+.dice {
+	font-size:9rem;
+	margin:0 20px;
+}
+}
