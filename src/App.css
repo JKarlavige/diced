@@ -13,6 +13,7 @@
   font-size:100%;
   box-sizing:border-box;
   letter-spacing:1px;
+  text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight:500;
@@ -31,14 +32,17 @@ p, li {
   font-size: 1.1rem;
 }
 a {
-  color: #39dc5e;
+  color:#ebbd6f;
 }
 a:hover {
-  color: #39dc5e;
+  color:#ebbd6f;
   text-decoration:underline;
 }
 
 /* App Styles */
+.hide {
+  display:none !important;
+}
 body {
   background:url('./images/app-bg.jpg');
   min-height:100vh;

@@ -4,6 +4,7 @@ import Menu from './components/Menu/Menu.js'
 import Board from './components/Board/Board.js'
 import Roll from './components/Roll/Roll.js'
 import Loading from './components/Loading/Loading.js'
+import Credits from './components/Credits/Credits.js'
 /* Helpers */
 import createArray from './helpers/createArray.js'
 import randomRoll from './helpers/randomRoll.js'
@@ -66,6 +67,7 @@ class App extends Component {
     let isLoading = this.state.loading
     return (
       <main>
+        <Credits />
         <Menu 
           total={this.state.total}
           numDice={this.state.numDice}
