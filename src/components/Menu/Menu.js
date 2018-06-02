@@ -7,7 +7,7 @@ class Menu extends Component {
 	render() {
 		return (
 			<section id='menu'>
-				<img id='logo' src={logo} alt='Diced' />
+				<a href='/'><img id='logo' src={logo} alt='Diced' /></a>
 				<div id='roll-result'>
 					<h1>Roll Result</h1>
 					<div id='roll-result-box'>
